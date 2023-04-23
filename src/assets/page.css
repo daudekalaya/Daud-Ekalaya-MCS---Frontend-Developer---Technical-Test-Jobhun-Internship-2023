@@ -451,10 +451,7 @@ h2 {
   }
 
   .close-icon {
-    position: absolute;
-    top: 2;
-    margin: 1rem;
-    margin-left: 280px;
+    display: none;
   }
 
   .card-detail h3 {
