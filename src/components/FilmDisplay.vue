@@ -50,7 +50,7 @@
                     </div>
                   </div>
 
-                  <img :src="item.show.image.medium" />
+                  <img v-if="item.show.image && item.show.image.medium" :src="item.show.image.medium" />
                 </div>
               </router-link>
             </div>
